@@ -3,4 +3,26 @@
   <groupId>org.realmzproject</groupId>
   <artifactId>realmzjail</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <repositories>
+    <repository>
+      <id>spout-repo</id>
+      <url>http://repo.spout.org/</url>
+    </repository>
+  </repositories>
+  
+  <pluginRepositories>
+    <pluginRepository>
+      <id>spout-plugins</id>
+      <url>http://repo.spout.org</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.spout</groupId>
+      <artifactId>spoutapi</artifactId>
+      <version>dev-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
 </project>
